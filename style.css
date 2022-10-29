@@ -1,0 +1,66 @@
+body{
+    background: url(img/fundo.jpg);
+}
+fieldset{
+    background-color: rgb(209, 195, 4);
+     
+box-shadow: 0px 0px 12px 9px rgba(0, 0, 0, 0.79);
+    height: 95%;
+    margin: 5px;
+    border-radius: 2%;
+}
+section{
+    background-color: #ccbf09;
+    height: 600px;
+    width: 400px;
+    position: relative;
+    left: 450px;
+    top: 30px;
+    border-radius: 2%;
+    border: 2px black solid;
+}
+.crt img{
+ margin: 0 34px;
+ border-radius: 12%;
+ border: 2px black solid;
+}
+.control button{
+    width: 90px;
+    height: 30px;
+    background-color: #c0a320;
+    border-radius: 12px;
+}
+.control h1{
+  
+  font-size: 30px;
+}
+.control p{
+    color: red;
+}
+.control{
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 10%;
+}
+
+.menu{
+ 
+    width: 100px;
+    height: 250px;
+    position: relative;
+    left: 200px;
+    bottom: 400px;
+}
+.menu button{
+    width: 100px ;
+    height: 50px;
+    border-radius: 5px;
+    background-color:#065e81;
+    color: #967661;
+}
+.menu button:hover{
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+}
