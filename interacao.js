@@ -16,14 +16,15 @@ const Bt3 = document.getElementById('b3');
 const Bt4 = document.getElementById('b4');
 const Bt5 = document.getElementById('b5');
 //logica
+const textoA= ' Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ullam illum aspernatur?';
 
 Bt1.addEventListener('click',() => {
-   
+    
     avatar.src = "img/jose.png";
     logo.style.display ="none";
     nomeh1.innerText='jose';
-    poderP.innerText='fazer merda';
-    fraquezaP.innerText='alcool';
+    poderP.innerText='fazer merda' + textoA;
+    fraquezaP.innerText='alcool '+ textoA;
     Ps.innerText='Ps 12';
     tipoBt.innerText='basico';
     poderH1.innerText='Poder :';
@@ -34,8 +35,8 @@ Bt2.addEventListener('click',() => {
     avatar.src = "img/ines brasil.png";
     logo.style.display ="none";
     nomeh1.innerText='ines brasil';
-    poderP.innerText='lacrar';
-    fraquezaP.innerText='falar de mais';
+    poderP.innerText='lacrar' + textoA;
+    fraquezaP.innerText='falar de mais' + textoA;
     Ps.innerText='Ps 20';
     tipoBt.innerText='não basico';
     poderH1.innerText='Poder :';
@@ -46,8 +47,8 @@ Bt3.addEventListener('click',() => {
     avatar.src = "img/pericles.png";
     logo.style.display ="none";
     nomeh1.innerText='pericles';
-    poderP.innerText='fazer chorar';
-    fraquezaP.innerText='Melancolia';
+    poderP.innerText='fazer chorar' + textoA;
+    fraquezaP.innerText='Melancolia' + textoA;
     Ps.innerText='Ps 245';
     tipoBt.innerText='não basico';
     poderH1.innerText='Poder :';
@@ -58,8 +59,8 @@ Bt4.addEventListener('click',() => {
     avatar.src = "img/regina case.png";
     logo.style.display ="none";
     nomeh1.innerText='regina case';
-    poderP.innerText='ixxquenta';
-    fraquezaP.innerText='lugares com arcondicionado ';
+    poderP.innerText='ixxquenta' + textoA;
+    fraquezaP.innerText='lugares com arcondicionado ' + textoA;
     Ps.innerText='Ps 23';
     tipoBt.innerText='basico';
     poderH1.innerText='Poder :';
@@ -71,13 +72,14 @@ Bt5.addEventListener('click',() => {
     avatar.src = "img/susana vieria.png";
     logo.style.display ="none";
     nomeh1.innerText='susana vieria';
-    poderP.innerText='força';
-    fraquezaP.innerText='quebrar tudo';
+    poderP.innerText='força' + textoA;
+    fraquezaP.innerText='quebrar tudo'+ textoA ;
     Ps.innerText='Ps 50';
     tipoBt.innerText='basico';
     poderH1.innerText='Poder :';
     fraquezaH2.innerText='Fraqueza :';
 })
+
 
 
 
